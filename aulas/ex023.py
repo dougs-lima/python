@@ -1,0 +1,6 @@
+num = int(input('Digite um número: '))
+separa = str(num)
+print(f'Unidade: {separa[3]}')
+print(f'Dezena: {separa[2]}')
+print(f'Centena: {separa[1]}')
+print(f'Milhar: {separa[0]}')

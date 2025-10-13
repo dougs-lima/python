@@ -1,0 +1,27 @@
+from itertools import count
+
+frase = 'Curso em Vídeo Python'
+frase2 = '   Aprenda Python  '
+print(frase[9])
+print(frase[9:13])
+print(frase[9:13:2])
+print(frase[:13])
+print(frase[9::3 ])
+print(len(frase))
+print(frase.count('o'))
+print(frase.count('o', 0, 13))
+print(frase.find('Víde'))
+print(frase.find('Android'))
+print('Curso' in frase)
+print(frase.replace('Python', 'Android'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase2.strip())
+print(frase2.rstrip())
+print(frase2.lstrip())
+print(frase2)
+frase3 = frase.split()
+print(frase3)
+print('-'.join(frase3))
