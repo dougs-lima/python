@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="media 10 numeros"/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-21 09:05:46 "/>
+        <attribute name="created" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDc6MzM6NDUgIjsyNjUw"/>
+        <attribute name="edited" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6MDU6NDYgIjsxOzI3NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, soma, i" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <assign variable="valor" expression="0"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Digite valor &quot; &amp; i" newline="True"/>
+                <input variable="valor"/>
+                <assign variable="soma" expression="soma + valor"/>
+            </for>
+            <assign variable="media" expression="soma / 10"/>
+            <output expression="&quot;A media dos valores &#233; &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

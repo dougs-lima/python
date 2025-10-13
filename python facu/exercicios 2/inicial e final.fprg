@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="inicial e final"/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-21 09:29:04 "/>
+        <attribute name="created" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6MjM6NTggIjsyNjU1"/>
+        <attribute name="edited" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6Mjk6MDQgIjsxOzI3NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="inicial, final, contador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor inicial&quot;" newline="True"/>
+            <input variable="inicial"/>
+            <output expression="&quot;Digite o valor final&quot;" newline="True"/>
+            <input variable="final"/>
+            <for variable="contador" start="inicial + 1" end="final - 1" direction="inc" step="1">
+                <output expression="contador" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="conversor temperatura"/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-21 10:51:50 "/>
+        <attribute name="created" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6MDg6MDcgIjsyNjUy"/>
+        <attribute name="edited" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6MDg6MTMgIjsxO2FsdW5vO1NQU1RBRVMtNjE3Mjg2OzIwMjUtMDgtMjE7IjA3OjMzOjQ1ICI7NTQ2Ng=="/>
+        <attribute name="edited" value="YWx1bm87U1BTVEFFUy02MTcyODY7MjAyNS0wOC0yMTsiMDk6MjM6NDYgIjsxOzI3NjA="/>
+        <attribute name="edited" value="RG91ZztERVNLVE9QLTVNSlVQUUo7MjAyNS0wOC0yMTsiMTA6NTE6NTAgIjsxOzI4MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius, kelvin" type="Real" array="False" size=""/>
+            <assign variable="celsius" expression="0"/>
+            <while expression="celsius &gt;= 0">
+                <output expression="&quot;Digite a temperatura em Celsius :&quot;" newline="True"/>
+                <input variable="celsius"/>
+                <if expression="celsius &gt;=0">
+                    <then>
+                        <assign variable="kelvin" expression="celsius + 273.15"/>
+                        <output expression="&quot;A temperatura em Kelvin e :&quot; &amp; kelvin &amp; &quot;K&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;Temperatura negativa!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
