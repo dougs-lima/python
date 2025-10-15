@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aulas" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,13 +46,27 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.aula10a.executor": "Run",
     "Python.ex027.executor": "Run",
+    "Python.ex028.executor": "Run",
+    "Python.ex029.executor": "Run",
+    "Python.ex030.executor": "Run",
+    "Python.ex031.executor": "Run",
+    "Python.ex032.executor": "Run",
+    "Python.ex033.executor": "Run",
+    "Python.ex034.executor": "Run",
+    "Python.ex035.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "main",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Doug/OneDrive/Documentos/GitHub/python"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Doug\OneDrive\Documentos\GitHub\python\aulas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
