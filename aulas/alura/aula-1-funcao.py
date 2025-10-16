@@ -31,3 +31,6 @@ def taboada(n):
         print(f'{n} x {i} = {taboada}')
     print("-" * 15)
 print(taboada(2))
+
+def fatorial(n):
+    if n ==

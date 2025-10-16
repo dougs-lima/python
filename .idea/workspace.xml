@@ -45,6 +45,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.aula-1-funcao.executor": "Run",
+    "Python.aula-tupla.executor": "Run",
     "Python.aula10a.executor": "Run",
     "Python.ex021.executor": "Run",
     "Python.ex027.executor": "Run",
@@ -56,6 +57,7 @@
     "Python.ex033.executor": "Run",
     "Python.ex034.executor": "Run",
     "Python.ex035.executor": "Run",
+    "Python.ex072.executor": "Run",
     "Python.main.executor": "Run",
     "Python.teste03.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,8 +70,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Doug\OneDrive\Documentos\GitHub\python\python facu" />
       <recent name="C:\Users\Doug\OneDrive\Documentos\GitHub\python\aulas\cursoemvideo" />
+      <recent name="C:\Users\Doug\OneDrive\Documentos\GitHub\python\python facu" />
       <recent name="C:\Users\Doug\OneDrive\Documentos\GitHub\python\aulas" />
     </key>
   </component>
